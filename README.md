@@ -12,3 +12,13 @@ npm init -y
 npm install --save-dev typescript @types/node
 echo 'console.log("test")' > index.ts
 ```
+
+#### How to convert `typeScript` any mode? Please follow the command line hopefully it's will be work.
+
+```tsc file_name.ts```
+
+> If you like to opne `ES6` mode please run the command
+
+`tsc file_name -t es6`
+
+##### Here `-t` is target mode
