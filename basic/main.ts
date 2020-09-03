@@ -65,3 +65,30 @@ function multipleNumber(x: number, y: number = 30) {
 
 console.log(multipleNumber(5, 2));
 console.log(multipleNumber(2));
+
+
+// Interface
+function full_name(person: { first_name: string, last_name: string }) {
+    console.log(`Fullname: ${person.first_name} ${person.last_name}`);
+}
+let _person = {
+    first_name: 'Mbr',
+    last_name: 'Sagor'
+}
+full_name(_person);
+
+interface Person {
+    first_name: string,
+    last_name: string
+}
+
+function get_full_name(person: Person) {
+    console.log(`My Name is: ${person.first_name} ${person.last_name}`);
+}
+get_full_name(_person);
+
+// Arrow function
+const my_name = (name: string) => {
+    console.log(`My name is: ${name}`)
+}
+my_name('Md.Bozlur Rosid Sagor');
