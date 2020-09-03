@@ -42,3 +42,26 @@ let any_key: any = 20;
 any_key = 'hello';
 any_key = true;
 any_key = 40.5;
+
+let multiType: number | boolean;
+multiType = 20;
+multiType = false;
+
+// Function with optional paramiter
+function addNumber(num: number, num2?: number): number {
+    if (num2)
+        return num + num2;
+    else return num;
+}
+console.log(addNumber(20, 30));
+console.log(addNumber(2));
+
+// Function with default paramiter
+function multipleNumber(x: number, y: number = 30) {
+    if (x)
+        return x * y;
+    else return y;
+}
+
+console.log(multipleNumber(5, 2));
+console.log(multipleNumber(2));
