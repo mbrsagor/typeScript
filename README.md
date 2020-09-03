@@ -3,6 +3,16 @@
 #### What is typeScript?
 >> typeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 
+### Why & what typescript?
+- Open source programming language.
+- Typed superset javascript.
+- Compiles down to plain javascript.
+- Relation to javascrpt.
+- Optional static typing and type interface. 
+- IDE Support.
+- Fefactor code very easily. 
+- It's main programmng language of Angular.  
+
 ### Install Dependency
 
 1st time when I stated typeScript I was geting a simple error. Here I will share below how to run typescript:
