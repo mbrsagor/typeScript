@@ -13,6 +13,9 @@
 - Fefactor code very easily. 
 - It's main programmng language of Angular.  
 
+###### How to automatically (watch) re-compile?
+```tsc file_name --watch```
+
 ### Install Dependency
 
 1st time when I stated typeScript I was geting a simple error. Here I will share below how to run typescript:
