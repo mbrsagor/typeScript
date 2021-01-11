@@ -15,6 +15,8 @@
 
 ###### How to automatically (watch) re-compile?
 ```tsc file_name --watch```
+>> or
+```tsc --watch```
 
 ### Install Dependency
 
